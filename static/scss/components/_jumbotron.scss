@@ -3,6 +3,15 @@
   padding: 5rem 2rem;
   min-height: 100vh;
   background-image: linear-gradient(rgba(black, .6), rgba(black, .6)), url('../img/Untitled-design-4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
   &__img {
     width: 80%;
