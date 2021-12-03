@@ -1,0 +1,15 @@
+@import '../scss/abstract/colors',
+        '../scss/abstract/variables';
+
+@import '../scss/base/base',
+        '../scss/base/typography';
+
+@import '../scss/components/btn',
+        '../scss/components/hamburger',
+        '../scss/components/header-card',
+        '../scss/components/nav',
+        '../scss/components/dropdown';
+
+@import '../scss/layouts/header',
+        '../scss/layouts/footer',
+        '../scss/layouts/section';

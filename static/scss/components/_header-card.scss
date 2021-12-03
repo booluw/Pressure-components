@@ -1,0 +1,14 @@
+.header-card {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  margin-inline-end: 2rem;
+  font-size: 1.4rem;
+
+
+  &__icon {
+    color: $color-yellow;
+    font-size: 3rem;
+    margin: 0 1rem 0 0;
+  }
+}
