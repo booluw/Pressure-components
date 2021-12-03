@@ -530,6 +530,49 @@ body {
   }
 }
 
+.section {
+  padding: 5rem 2rem;
+}
+
+.section--center {
+  text-align: center;
+}
+
+.section__heading {
+  font-family: 'Odor Mean Chey', serif;
+  font-size: 4rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+}
+
+.section__heading--lato {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.section__heading--lato b {
+  color: #f1bd47;
+}
+
+.section__img {
+  width: 100%;
+  height: auto;
+}
+
+.section__paragraph {
+  font-size: 2rem;
+}
+
+.section__paragraph--border {
+  border: 1rem solid #001c31;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 10rem 6rem;
+  }
+}
+
 .wrapper {
   background-color: #f1bd47;
   padding: 2rem 3rem;

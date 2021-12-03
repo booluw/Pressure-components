@@ -1,0 +1,42 @@
+.section {
+  padding: 5rem 2rem;
+
+  &--center {
+    text-align: center;
+  }
+
+  &__heading {
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 4rem;
+    margin-block-end: 1rem;
+
+    &--lato {
+      font-family: Lato, sans-serif;
+      font-weight: 300;
+
+      b {
+        color: $color-yellow;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+
+    &--border {
+      border: 1rem solid $color-black;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 10rem 6rem;
+  }
+}
