@@ -25,4 +25,13 @@
       background-color: white;
     }
   }
+
+  &--reverse {
+    background: white;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
 }

@@ -1,0 +1,31 @@
+.wrapper {
+  background-color: $color-yellow;
+  padding: 2rem 3rem;
+  text-align: center;
+
+  &__heading {
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+  }
+
+  &__btn {
+    display: inline-flex;
+    margin-block-start: 2rem;
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    padding: 3rem 6rem;
+
+    &__btn {
+      padding: 2rem 4rem;
+    }
+
+    &__heading {
+      font-size: 3rem;
+    }
+  }
+}
