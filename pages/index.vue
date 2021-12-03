@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <section>
+    <app-jumbotron />
+  </section>
 </template>
 
 <script>

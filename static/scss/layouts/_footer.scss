@@ -10,6 +10,7 @@
     margin-block-end: 2rem;
     
     &s {
+      padding: 2rem 0 0;
       border-bottom: .2rem solid white;
     }
   }
@@ -21,11 +22,17 @@
   }
 
   &__link {
+    list-style: none;
+    display: block;
+    color: white;
     opacity: .8;
+    margin-block-end: 1rem;
 
     &:hover {
       color: $color-yellow;
     }
+
+    &s {list-style: none;}
   }
 
   & .nav {margin-block-end: 2rem;}
@@ -44,6 +51,8 @@
 @media screen and (min-width: 1200px) {
   .footer {
     padding: 4rem 6rem;
+
+    img { width: 100%; height: auto;}
 
     .header-card {
       padding: 2rem 4rem;

@@ -16,6 +16,15 @@
     transform: scale(1.1);
   }
 
+  &--big {
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  &--bordered {
+    border: .2rem solid black;
+  }
+
   &--cta {
     text-transform: uppercase;
     margin-inline-start: 2rem;

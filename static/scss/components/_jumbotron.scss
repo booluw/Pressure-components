@@ -1,0 +1,40 @@
+.jumbotron {
+  color: white;
+  padding: 5rem 2rem;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(black, .6), rgba(black, .6)), url('../img/Untitled-design-4.jpg');
+
+  &__img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 0;
+  }
+
+  &__heading {
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+
+  & .btn {
+    margin-block-end: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    padding: 5rem 6rem;
+    height: 100vh;
+
+    &__img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &__heading {
+      font-size: 5rem;
+      line-height: 1.1;
+    }
+  }
+}
