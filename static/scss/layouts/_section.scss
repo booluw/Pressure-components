@@ -18,6 +18,10 @@
         color: $color-yellow;
       }
     }
+
+    &--small {
+      font-size: 1.8rem!important;
+    }
   }
 
   &__img {

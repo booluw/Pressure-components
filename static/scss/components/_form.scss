@@ -1,0 +1,27 @@
+.form {
+
+  &__heading {
+    padding: 0 3rem;
+    border-left: 1rem solid $color-yellow;
+    font-family: 'Odor Mean Chey', serif;
+    text-transform: uppercase;
+    margin: 0 0 3rem;
+    font-size: 1.8rem;
+  }
+
+  &__input {
+    padding: .7rem;
+    margin-block-end: 2rem;
+    border-radius: .5rem;
+    border: .2rem solid lighten(grey, 30);
+    font-size: 2rem;
+    font-weight: 300;
+
+    &--big {
+      min-height: 20rem;
+      min-width: 40%;
+      font-family: Lato, sans-serif;
+    }
+  }
+}
+

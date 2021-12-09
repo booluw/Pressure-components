@@ -8,7 +8,7 @@
         <div class="col-md-3 p-0">
           <a href="~/static/docs/2021-PCI-Catalog-update-Sept-digital-compressed.pdf" class="wrapper__btn btn btn--cta btn--reverse" download>
             view catalog
-            <i class="fa fa-arrow-right ml-5 pl-5"></i>
+            <i class="fa fa-arrow-right"></i>
           </a>
         </div>
       </div>
@@ -28,16 +28,14 @@
           <i class="header-card__icon fa fa-phone">
           </i>
           <div>
-            800-322-9527
-            <br />
-            440-349-4020
+            440-325-0306
           </div>
         </div>
         <div class="header-card">
           <i class="header-card__icon fa fa-envelope-o">
           </i>
           <div>
-              sales@pressurecomponents.com
+              sales@pressurecomponent.com
           </div>
         </div>
         <div class="header-card">
@@ -64,20 +62,23 @@
             <li>
               <nuxt-link to="/about-us" class="nav__link" exact-active-class="nav__link--active">about us</nuxt-link>
             </li>
+            <li>
+              <nuxt-link to="/industries" class="nav__link" exact-active-class="nav__link--active">industries</nuxt-link>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown__toggler nav__link">
                 products
                 <span class="dropdown__arrow"></span>
               </a>
               <div class="dropdown__menu">
-                <a href="~/static/docs/" class="dropdown__link" download>Quick Coupling</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Diagnotic and Guages</a>
-                <a href="~/static/docs/" class="dropdown__link" download>High Pressure Ball Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Pressure Wash Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Low Pressure Ball Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Flow Control and Needle Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Check Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Pipe Tube and Hose Clamps</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_quickcouplings.pdf" class="dropdown__link" target="_blank">Quick Coupling</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_diagnostics-and-gauges.pdf" class="dropdown__link" target="_blank">Diagnotic and Guages</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_highpressure_ballvalves-520.pdf" class="dropdown__link" target="_blank">High Pressure Ball Valves</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_pressure_wash_valves.pdf" class="dropdown__link" target="_blank">Pressure Wash Valves</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_low-medium-pressure-ball-valves.pdf" class="dropdown__link" target="_blank">Low Pressure Ball Valves</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_flow-control_needle-valves.pdf" class="dropdown__link" target="_blank">Flow Control and Needle Valves</a>
+                <a href="docs/2021-PCI-Catalog-final-digital_check-valves.pdf" class="dropdown__link" target="_blank">Check Valves</a>
+                <a href="docs/2021-PCI-Catalog-September_clamps.pdf" class="dropdown__link" target="_blank">Pipe Tube and Hose Clamps</a>
               </div>
             </li>
             <li class="dropdown">
@@ -86,21 +87,21 @@
                 <span class="dropdown__arrow"></span>
               </a>
               <div class="dropdown__menu">
-                <a href="~/static/docs/" class="dropdown__link" download>Hydraulic Press Test Kits</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Pressure Wash Kits</a>
-                <a href="~/static/docs/" class="dropdown__link" download>FF90 Series</a>
-                <a href="~/static/docs/" class="dropdown__link" download>HSP-1040 Series</a>
-                <a href="~/static/docs/" class="dropdown__link" download>HSP 1720 Series</a>
-                <a href="~/static/docs/" class="dropdown__link" download>PC-100 Series Mini Needle Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>PC-400 Series Needle Valves</a>
-                <a href="~/static/docs/" class="dropdown__link" download>Custom Hose Fittings</a>
+                <nuxt-link to="new-products" class="dropdown__link">Hydraulic Press Test Kits</nuxt-link>
+                <a href="docs/PW5000.pdf" class="dropdown__link" target="_blank">Pressure Wash Kits</a>
+                <a href="docs/FF90.pdf" class="dropdown__link" target="_blank">FF90 Series</a>
+                <a href="docs/HSP-1040-min-scaled-1.pdf" class="dropdown__link" target="_blank">HSP-1040 Series</a>
+                <a href="docs/HSP1720-No-Price.pdf" class="dropdown__link" target="_blank">HSP 1720 Series</a>
+                <a href="docs/PC-100-Series-Mini-Needle-Valves.pdf" class="dropdown__link" target="_blank">PC-100 Series Mini Needle Valves</a>
+                <a href="docs/PC400-series-final.pdf" class="dropdown__link" target="_blank">PC-400 Series Needle Valves</a>
+                <a href="docs/PCI-HOSE-FITTING-LIST-PRICING-2021.pdf" class="dropdown__link" target="_blank">Custom Hose Fittings</a>
               </div>
             </li>
             <li>
-              <a href="~/static/docs/" class="nav__link" download>cross reference catalog</a>
+              <a href="docs/" class="nav__link" target="_blank">cross reference catalog</a>
             </li>
             <li>
-              <nuxt-link to="/industries" class="nav__link" exact-active-class="nav__link--active">industries</nuxt-link>
+              <nuxt-link to="/contact-us" class="nav__link" exact-active-class="nav__link--active">contact us</nuxt-link>
             </li>
           </ul>
         </div>

@@ -11,8 +11,13 @@
 
   &__btn {
     display: inline-flex;
+    justify-content: space-between;
     margin-block-start: 2rem;
     padding: 1.5rem 2rem;
+
+    .fa {
+      margin: 0 0 0 2rem;
+    }
   }
 }
 

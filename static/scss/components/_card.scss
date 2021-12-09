@@ -10,6 +10,7 @@
     border: none;
     padding: 1rem;
     background-color: $color-grey;
+    height: 100%;
   
     & .card__heading {
       opacity: .8;
@@ -18,6 +19,10 @@
       margin: 1rem 0 2rem;
       font-size: 2rem;
       font-weight: 400;
+    }
+
+    & .card__paragraph {
+      margin: 2rem 0;
     }
   }
 

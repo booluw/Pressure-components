@@ -11,3 +11,37 @@
   font-family: 'Odor Mean Chey';
   src: url('../fonts/OdorMeanChey-Regular.ttf');
 }
+
+.heading {
+  font-family: 'Odor Mean Chey', serif;
+  text-transform: uppercase;
+
+  &--fancy {
+    position: relative;
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      top: 30%;
+      bottom: auto;
+      padding: .5rem;
+      width: 2.5rem;
+      height: 20%;
+      background-color: $color-yellow;
+    }
+
+    &::after {
+      margin-inline-start: 2rem;
+    }
+
+    &::before {
+      margin: 0 0 0 -4rem;
+    }
+  }
+
+  &-group {
+    position: relative;
+    text-align: center;
+    margin-block-end: 5rem;
+  }
+}

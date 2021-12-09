@@ -33,6 +33,42 @@ body {
   src: url("../fonts/OdorMeanChey-Regular.ttf");
 }
 
+.heading {
+  font-family: 'Odor Mean Chey', serif;
+  text-transform: uppercase;
+}
+
+.heading--fancy {
+  position: relative;
+}
+
+.heading--fancy::after, .heading--fancy::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  bottom: auto;
+  padding: .5rem;
+  width: 2.5rem;
+  height: 20%;
+  background-color: #f1bd47;
+}
+
+.heading--fancy::after {
+  -webkit-margin-start: 2rem;
+          margin-inline-start: 2rem;
+}
+
+.heading--fancy::before {
+  margin: 0 0 0 -4rem;
+}
+
+.heading-group {
+  position: relative;
+  text-align: center;
+  -webkit-margin-after: 5rem;
+          margin-block-end: 5rem;
+}
+
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,6 +89,7 @@ body {
   font-weight: 700;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -79,6 +116,16 @@ body {
   -webkit-transform: none;
           transform: none;
   background-color: white;
+}
+
+.btn--black {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1.5rem 7rem;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  border-radius: .5rem;
 }
 
 .btn--reverse {
@@ -212,7 +259,7 @@ body {
   .nav__link {
     background-color: transparent;
     color: white;
-    padding: 1.7rem 3rem;
+    padding: 1.7rem 2rem;
     border: none;
   }
   .nav__link:hover {
@@ -340,6 +387,11 @@ body {
   line-height: 1.2;
 }
 
+.jumbotron__heading--small {
+  font-size: 3.5rem;
+  text-align: left;
+}
+
 .jumbotron .btn {
   -webkit-margin-after: 1rem;
           margin-block-end: 1rem;
@@ -378,6 +430,7 @@ body {
   border: none;
   padding: 1rem;
   background-color: #f7f7f7;
+  height: 100%;
 }
 
 .card--with-img .card__heading {
@@ -387,6 +440,10 @@ body {
   margin: 1rem 0 2rem;
   font-size: 2rem;
   font-weight: 400;
+}
+
+.card--with-img .card__paragraph {
+  margin: 2rem 0;
 }
 
 .card__img {
@@ -412,6 +469,31 @@ body {
 
 .card__paragraph {
   color: #5e5e5e;
+}
+
+.form__heading {
+  padding: 0 3rem;
+  border-left: 1rem solid #f1bd47;
+  font-family: 'Odor Mean Chey', serif;
+  text-transform: uppercase;
+  margin: 0 0 3rem;
+  font-size: 1.8rem;
+}
+
+.form__input {
+  padding: .7rem;
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+  border-radius: .5rem;
+  border: 0.2rem solid #cdcdcd;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.form__input--big {
+  min-height: 20rem;
+  min-width: 40%;
+  font-family: Lato, sans-serif;
 }
 
 .header {
@@ -503,6 +585,7 @@ body {
   }
   .header__search-icon {
     display: block;
+    color: white;
   }
 }
 
@@ -516,6 +599,9 @@ body {
 }
 
 .footer .header-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
 }
@@ -623,6 +709,10 @@ body {
   color: #f1bd47;
 }
 
+.section__heading--small {
+  font-size: 1.8rem !important;
+}
+
 .section__img {
   width: 100%;
   height: auto;
@@ -658,9 +748,16 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-margin-before: 2rem;
           margin-block-start: 2rem;
   padding: 1.5rem 2rem;
+}
+
+.wrapper__btn .fa {
+  margin: 0 0 0 2rem;
 }
 
 @media screen and (min-width: 1200px) {
